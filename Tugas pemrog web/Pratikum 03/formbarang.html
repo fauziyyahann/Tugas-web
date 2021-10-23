@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang</title>
+</head>
+<body>
+    <table style="background-color: lightgrey; margin: 0 auto; padding: 10px;">
+        <tr>
+            <td>
+                <table style="width: 16cm; text-align:center; border:2px solid black; padding: 10px;">
+                <tr>
+                    <td>
+                        Home &emsp; | &emsp; Generate &emsp; | &emsp; Transaction History &emsp; | &emsp; Policy &emsp; | &emsp; Logout
+                    </td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <table>
+                <tr>
+                    <td rowspan="20"><img src="foto.jpg" style="width: 200px;">
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tittle Here</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Macbook Air 800"></td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>:</td>
+                    <td><textarea name="" id="" cols="30" rows="10" placeholder="Year : 2009 | Model : | Condition : Mint"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Account Number</td>
+                    <td>:</td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Bank</td>
+                    <td>:</td>
+                    <td><select name="bank">
+                        <option>BCA</option>
+                            <option>Cimb Niaga</option>
+                                <option>BNI</option>
+                                    <option>Mandiri</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Account Holder</td>
+                    <td>:</td>
+                    <td><input type="text" id="holder" placeholder="Name Here" width="10px"></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom: 20px;"><label for="ction">Transaction</label></td>
+                    <td style="padding-bottom: 20px;">:</td>
+                    <td><input type="number" id="ction" placeholder="0"><br>
+                       *if the transaction is for 3 person,<br>
+                       choose 3 from the drop-down list
+                    </td>
+                </tr>
+                <tr>
+                        <td rowspan="2" colspan="2"></td>
+                        <td><input type="checkbox" id="mophone"><label for="mophone" style="color: darkgreen;">Send to Mobile Phone</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="semail"><label for="semail" style="color: darkgreen;">Send to Email</label></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Send to Mobile Phone</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="phone" placeholder="1234567890, 1234567891"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Send to Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" placeholder="mfmm2g13@soton.ac.uk"</td>
+                </tr>
+            </table>
+        </td>
+    </table>
+</body>
+</html>
